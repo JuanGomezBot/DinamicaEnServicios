@@ -11,6 +11,16 @@
 
 /*--------------------------------------------------------------
 # General
+/**
+* Template Name: Squadfree
+* Updated: May 30 2023 with Bootstrap v5.3.0
+* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
 --------------------------------------------------------------*/
 .mitad{
   margin-left: 200px;
@@ -60,6 +70,24 @@
 ul {
   list-style: none;
   padding: 0;
+}
+@media(min-width: 769px ){
+  .centrar {
+    text-align: center;
+    margin: 80 auto;
+    
+    right: 50%;
+    left: 50%;
+    transform: translateX(300px);
+    
+  }
+  .centrar h2 {
+    margin-bottom: 10px;
+  }
+  
+  .centrar p {
+    margin: 0;
+  }
 }
 
 .text {
@@ -167,7 +195,8 @@ h6
 }
 
 #header.header-transparent {
-  background: rgba(104, 223, 100,0.5);}
+  background: rgba(104, 223, 100,0.5);
+}
 
 #header.header-scrolled {
   background: #17A63B ;
@@ -395,7 +424,6 @@ h6
   
   position: relative;
   margin-bottom: -90px;
- filter: none;
 }
 
 #hero .hero-container {

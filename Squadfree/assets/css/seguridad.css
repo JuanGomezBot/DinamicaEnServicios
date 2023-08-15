@@ -9,25 +9,30 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.centrar {
-  text-align: center;
-  margin: 80 auto;
+@media(min-width: 769px ){
+  .centrar {
+    text-align: center;
+    margin: 80 auto;
+    
+    right: 50%;
+    left: 50%;
+    transform: translateX(300px);
+    
+  }
+  .centrar h2 {
+    margin-bottom: 10px;
+  }
   
-  right: 50%;
-  left: 50%;
-  transform: translateX(300px);
-  
-}
-.centrar h2 {
-  margin-bottom: 10px;
-}
-
-.centrar p {
-  margin: 0;
+  .centrar p {
+    margin: 0;
+  }
 }
 
 .section-title {

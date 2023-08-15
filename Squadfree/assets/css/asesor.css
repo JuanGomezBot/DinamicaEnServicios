@@ -58,6 +58,24 @@ ul {
   list-style: none;
   padding: 0;
 }
+@media(min-width: 769px ){
+  .centrar {
+    text-align: center;
+    margin: 80 auto;
+    
+    right: 50%;
+    left: 50%;
+    transform: translateX(300px);
+    
+  }
+  .centrar h2 {
+    margin-bottom: 10px;
+  }
+  
+  .centrar p {
+    margin: 0;
+  }
+}
 
 .text {
 color: #403E3F;

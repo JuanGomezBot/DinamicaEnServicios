@@ -43,7 +43,32 @@
 </head>
 
 <body>
-
+  <style>
+    /* Add this CSS to your <head> section */
+    @media (max-width: 768px) {
+      .grida {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    
+  </style>
+    
+    <style>
+      /* Add this CSS to your <head> section */
+      @media (max-width: 768px) {
+        .navbar .dropdown:hover .dropdown-menu {
+          display: none;
+        }
+        .navbar .dropdown .nav-link {
+          padding-right: 0;
+        }
+        .navbar .dropdown .dropdown-menu {
+          display: block;
+        }
+      }
+    </style>
+    
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between position-relative">
